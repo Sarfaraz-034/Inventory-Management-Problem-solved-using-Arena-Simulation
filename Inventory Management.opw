@@ -1,0 +1,29 @@
+[RESOURCES]
+Manufacturing Cell 2
+Manufacturing Cell 1
+[VARIABLES]
+Customer Lost
+Amount Lost
+Raw Materials Arrival.NumberOut
+Manufacture.NumberOut
+Manufacture.NumberIn
+Target Stock
+Customers
+Manufacture.VATime
+Go for Production?.NumberOut False
+Stop Production?.NumberOut False
+Stop Production?.NumberOut True
+Go for Production?.NumberOut True
+Exit.NumberOut
+Demand
+Demand Met
+Safety Stock
+Production Size
+Check Inventory?.NumberOut False
+Customer Arrival.NumberOut
+Raw Materials Received
+Check Inventory?.NumberOut True
+Manufacture.WaitTime
+Production
+Inventory
+Raw Materials Used

@@ -1,0 +1,812 @@
+SIMAN Run Controller.
+
+0.0 Hours>
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 1 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 6951.2824 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              1775.2     (Insuf)    69.079     4439.6         75    
+Manufacture.WaitTimePerEntity               1695.7     (Insuf)    .00000     4349.4         75    
+Manufacture.VATimePerEntity                 79.476     (Insuf)    54.524     114.14         75    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               1695.7     (Insuf)    .00000     4349.4         75    
+Hold for Production.Queue.WaitingTime       689.93     (Insuf)    .00000     1671.5         75    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         2.7861     (Insuf)    .00000     3.0000     3.0000    
+Amount Lost Value                           18.290     (Insuf)    .00000     19.601     19.601    
+Demand Met Value                            615.35     (Insuf)    .00000     823.70     823.70    
+Raw Materials Received Value                54.037     (Insuf)    .00000     75.000     75.000    
+Production Value                            .03722     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             516.54     (Insuf)    2.8117     1708.6     1708.6    
+Raw Materials Used Value                    34.884     (Insuf)    .00000     75.000     75.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           69.822     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .85750     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .85750     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             18.296     (Insuf)    .00000     52.000     .00000    
+Hold for Production.Queue.NumberInQueue     50.669     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      75.000    
+Manufacture Number In                       75.000    
+Manufacture Accum VA Time                   5960.7    
+Manufacture Accum Wait Time                 1.2718E+05
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           75.000    
+Manufacturing Cell 1.ScheduledUtilization   .85750    
+System.NumberOut                            140.00    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 2 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 5989.6312 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              1240.8     (Insuf)    70.285     2975.5         46    
+Manufacture.WaitTimePerEntity               1155.4     (Insuf)    .00000     2888.4         46    
+Manufacture.VATimePerEntity                 85.423     (Insuf)    57.230     105.96         46    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               1155.4     (Insuf)    .00000     2888.4         46    
+Hold for Production.Queue.WaitingTime       441.77     (Insuf)    .00000     969.08         46    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         2.9244     (Insuf)    .00000     3.0000     3.0000    
+Amount Lost Value                           16.671     (Insuf)    .00000     17.071     17.071    
+Demand Met Value                            610.89     (Insuf)    .00000     829.03     829.03    
+Raw Materials Received Value                38.025     (Insuf)    .00000     46.000     46.000    
+Production Value                            .03966     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             405.91     (Insuf)    .51800     826.62     826.62    
+Raw Materials Used Value                    28.495     (Insuf)    .00000     46.000     46.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           71.106     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .65604     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .65604     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             8.8737     (Insuf)    .00000     33.000     .00000    
+Hold for Production.Queue.NumberInQueue     61.576     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      46.000    
+Manufacture Number In                       46.000    
+Manufacture Accum VA Time                   3929.4    
+Manufacture Accum Wait Time                 53150.    
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           46.000    
+Manufacturing Cell 1.ScheduledUtilization   .65604    
+System.NumberOut                            140.00    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 3 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 6728.9718 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              1768.0     (Insuf)    67.598     4021.8         85    
+Manufacture.WaitTimePerEntity               1699.5     (Insuf)    .00000     3969.4         85    
+Manufacture.VATimePerEntity                 68.518     (Insuf)    47.615     114.27         85    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               1699.5     (Insuf)    .00000     3969.4         85    
+Hold for Production.Queue.WaitingTime       752.28     (Insuf)    .00000     1831.1         85    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         3.6916     (Insuf)    .00000     4.0000     4.0000    
+Amount Lost Value                           23.616     (Insuf)    .00000     25.629     25.629    
+Demand Met Value                            626.86     (Insuf)    .00000     809.17     809.17    
+Raw Materials Received Value                58.255     (Insuf)    .00000     85.000     85.000    
+Production Value                            .03535     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             503.55     (Insuf)    3.4692     1629.7     1629.7    
+Raw Materials Used Value                    35.921     (Insuf)    .00000     85.000     85.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           73.138     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .86552     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .86552     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             21.468     (Insuf)    .00000     64.000     .00000    
+Hold for Production.Queue.NumberInQueue     50.804     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      85.000    
+Manufacture Number In                       85.000    
+Manufacture Accum VA Time                   5824.0    
+Manufacture Accum Wait Time                 1.4446E+05
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           85.000    
+Manufacturing Cell 1.ScheduledUtilization   .86552    
+System.NumberOut                            140.00    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 4 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 6322.3658 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              647.38     (Insuf)    49.069     1539.1         31    
+Manufacture.WaitTimePerEntity               577.16     (Insuf)    .00000     1465.4         31    
+Manufacture.VATimePerEntity                 70.213     (Insuf)    49.069     93.423         31    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               577.16     (Insuf)    .00000     1465.4         31    
+Hold for Production.Queue.WaitingTime       310.55     (Insuf)    .00000     788.68         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         .98616     (Insuf)    .00000     1.0000     1.0000    
+Amount Lost Value                           6.2263     (Insuf)    .00000     6.3137     6.3137    
+Demand Met Value                            599.51     (Insuf)    .00000     827.42     827.42    
+Raw Materials Received Value                25.783     (Insuf)    .00000     31.000     31.000    
+Production Value                            .03921     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             116.47     (Insuf)    4.6632     250.33     131.29    
+Raw Materials Used Value                    22.609     (Insuf)    .00000     31.000     31.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           66.041     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .34427     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .34427     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             2.8299     (Insuf)    .00000     22.000     .00000    
+Hold for Production.Queue.NumberInQueue     62.866     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      31.000    
+Manufacture Number In                       31.000    
+Manufacture Accum VA Time                   2176.6    
+Manufacture Accum Wait Time                 17892.    
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           31.000    
+Manufacturing Cell 1.ScheduledUtilization   .34427    
+System.NumberOut                            140.00    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 5 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 6081.285 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              992.16     (Insuf)    62.925     2323.2         36    
+Manufacture.WaitTimePerEntity               908.95     (Insuf)    .00000     2245.7         36    
+Manufacture.VATimePerEntity                 83.216     (Insuf)    62.925     103.88         36    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               908.95     (Insuf)    .00000     2245.7         36    
+Hold for Production.Queue.WaitingTime       449.73     (Insuf)    .00000     995.54         36    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         4.5510     (Insuf)    .00000     5.0000     5.0000    
+Amount Lost Value                           29.556     (Insuf)    .00000     32.288     32.288    
+Demand Met Value                            576.06     (Insuf)    .00000     796.67     796.67    
+Raw Materials Received Value                30.339     (Insuf)    .00000     36.000     36.000    
+Production Value                            .02794     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             326.36     (Insuf)    3.4597     518.05     518.05    
+Raw Materials Used Value                    24.465     (Insuf)    .00000     36.000     36.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           70.300     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .49263     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .49263     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             5.3808     (Insuf)    .00000     27.000     .00000    
+Hold for Production.Queue.NumberInQueue     64.427     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      36.000    
+Manufacture Number In                       36.000    
+Manufacture Accum VA Time                   2995.7    
+Manufacture Accum Wait Time                 32722.    
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           36.000    
+Manufacturing Cell 1.ScheduledUtilization   .49263    
+System.NumberOut                            140.00    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 6 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 6603.5702 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              1630.1     (Insuf)    62.554     3716.7         71    
+Manufacture.WaitTimePerEntity               1553.7     (Insuf)    .00000     3637.2         71    
+Manufacture.VATimePerEntity                 76.349     (Insuf)    59.757     108.79         71    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               1553.7     (Insuf)    .00000     3637.2         71    
+Hold for Production.Queue.WaitingTime       737.11     (Insuf)    .00000     1816.0         71    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         7.2049     (Insuf)    .00000     9.0000     9.0000    
+Amount Lost Value                           46.079     (Insuf)    .00000     57.083     57.083    
+Demand Met Value                            579.11     (Insuf)    .00000     761.52     761.52    
+Raw Materials Received Value                47.913     (Insuf)    .00000     71.000     71.000    
+Production Value                            .05089     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             472.29     (Insuf)    .05685     1550.9     1550.9    
+Raw Materials Used Value                    30.387     (Insuf)    .00000     71.000     71.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           63.128     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .82089     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .82089     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             16.705     (Insuf)    .00000     51.000     .00000    
+Hold for Production.Queue.NumberInQueue     45.601     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      71.000    
+Manufacture Number In                       71.000    
+Manufacture Accum VA Time                   5420.8    
+Manufacture Accum Wait Time                 1.1032E+05
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           71.000    
+Manufacturing Cell 1.ScheduledUtilization   .82089    
+System.NumberOut                            140.00    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 7 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 8986.1495 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              2518.7     (Insuf)    61.550     6080.9        101    
+Manufacture.WaitTimePerEntity               2441.0     (Insuf)    .00000     5991.3        101    
+Manufacture.VATimePerEntity                 77.642     (Insuf)    53.592     99.392        101    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               2441.0     (Insuf)    .00000     5991.3        101    
+Hold for Production.Queue.WaitingTime       950.84     (Insuf)    .00000     2139.0        101    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         1.9836     (Insuf)    .00000     2.0000     2.0000    
+Amount Lost Value                           13.939     (Insuf)    .00000     14.054     14.054    
+Demand Met Value                            684.95     (Insuf)    .00000     848.12     848.12    
+Raw Materials Received Value                74.905     (Insuf)    .00000     101.00     101.00    
+Production Value                            .02474     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             802.67     (Insuf)    4.9633     2404.0     2404.0    
+Raw Materials Used Value                    46.596     (Insuf)    .00000     101.00     101.00    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           97.728     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .87267     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .87267     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             27.436     (Insuf)    .00000     77.000     .00000    
+Hold for Production.Queue.NumberInQueue     69.419     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      101.00    
+Manufacture Number In                       101.00    
+Manufacture Accum VA Time                   7841.9    
+Manufacture Accum Wait Time                 2.4655E+05
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           101.00    
+Manufacturing Cell 1.ScheduledUtilization   .87267    
+System.NumberOut                            140.00    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 8 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 6351.868 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              1501.7     (Insuf)    61.979     3483.0         77    
+Manufacture.WaitTimePerEntity               1436.6     (Insuf)    .00000     3420.3         77    
+Manufacture.VATimePerEntity                 65.118     (Insuf)    43.711     92.671         77    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               1436.6     (Insuf)    .00000     3420.3         77    
+Hold for Production.Queue.WaitingTime       821.20     (Insuf)    .00000     1979.9         77    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         1.5651     (Insuf)    .00000     2.0000     2.0000    
+Amount Lost Value                           11.176     (Insuf)    .00000     14.293     14.293    
+Demand Met Value                            589.42     (Insuf)    .00000     831.14     831.14    
+Raw Materials Received Value                50.396     (Insuf)    .00000     77.000     77.000    
+Production Value                            .03789     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             365.21     (Insuf)    2.1741     1280.8     1280.8    
+Raw Materials Used Value                    32.191     (Insuf)    .00000     77.000     77.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           69.255     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .78939     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .78939     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             17.415     (Insuf)    .00000     57.000     .00000    
+Hold for Production.Queue.NumberInQueue     51.050     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      77.000    
+Manufacture Number In                       77.000    
+Manufacture Accum VA Time                   5014.1    
+Manufacture Accum Wait Time                 1.1062E+05
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           77.000    
+Manufacturing Cell 1.ScheduledUtilization   .78939    
+System.NumberOut                            140.00    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 9 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 7322.1225 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              2013.1     (Insuf)    47.800     4728.3         69    
+Manufacture.WaitTimePerEntity               1922.3     (Insuf)    .00000     4635.7         69    
+Manufacture.VATimePerEntity                 90.754     (Insuf)    47.800     107.75         69    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               1922.3     (Insuf)    .00000     4635.7         69    
+Hold for Production.Queue.WaitingTime       738.70     (Insuf)    .00000     1758.1         69    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         8.7419     (Insuf)    .00000     10.000     10.000    
+Amount Lost Value                           60.048     (Insuf)    .00000     68.681     68.681    
+Demand Met Value                            612.57     (Insuf)    .00000     773.50     773.50    
+Raw Materials Received Value                50.224     (Insuf)    .00000     69.000     69.000    
+Production Value                            .03865     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             608.33     (Insuf)    .34824     1917.0     1917.0    
+Raw Materials Used Value                    31.253     (Insuf)    .00000     69.000     69.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           74.111     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .85522     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .85522     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             18.115     (Insuf)    .00000     51.000     .00000    
+Hold for Production.Queue.NumberInQueue     55.140     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      69.000    
+Manufacture Number In                       69.000    
+Manufacture Accum VA Time                   6262.0    
+Manufacture Accum Wait Time                 1.3264E+05
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           69.000    
+Manufacturing Cell 1.ScheduledUtilization   .85522    
+System.NumberOut                            140.00    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 10 of 10
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 6577.8753 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Manufacture.TotalTimePerEntity              785.24     (Insuf)    53.033     1785.1         27    
+Manufacture.WaitTimePerEntity               697.42     (Insuf)    .00000     1701.4         27    
+Manufacture.VATimePerEntity                 87.819     (Insuf)    50.480     116.32         27    
+Customer.VATime                             .00000     (Insuf)    .00000     .00000        140    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        140    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        140    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        140    
+Customer.TotalTime                          .00000     (Insuf)    .00000     .00000        140    
+Raw Materials.VATime                            --         --         --         --          0
+Raw Materials.NVATime                           --         --         --         --          0
+Raw Materials.WaitTime                          --         --         --         --          0
+Raw Materials.TranTime                          --         --         --         --          0
+Raw Materials.OtherTime                         --         --         --         --          0
+Raw Materials.TotalTime                         --         --         --         --          0
+Manufacture.Queue.WaitingTime               697.42     (Insuf)    .00000     1701.4         27    
+Hold for Production.Queue.WaitingTime       193.14     (Insuf)    .00000     552.44         27    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer Lost Value                         5.5058     (Insuf)    .00000     6.0000     6.0000    
+Amount Lost Value                           34.970     (Insuf)    .00000     37.819     37.819    
+Demand Met Value                            611.66     (Insuf)    .00000     807.32     807.32    
+Raw Materials Received Value                24.496     (Insuf)    .00000     27.000     27.000    
+Production Value                            .02852     (Insuf)    .00000     1.0000     .00000    
+Inventory Value                             178.76     (Insuf)    .27222     310.24     206.79    
+Raw Materials Used Value                    21.273     (Insuf)    .00000     27.000     27.000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Raw Materials.WIP                           75.801     (Insuf)    .00000     140.00     140.00    
+Manufacturing Cell 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 2.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Manufacturing Cell 1.NumberBusy             .36047     (Insuf)    .00000     1.0000     .00000    
+Manufacturing Cell 1.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manufacturing Cell 1.Utilization            .36047     (Insuf)    .00000     1.0000     .00000    
+Manufacture.Queue.NumberInQueue             2.8627     (Insuf)    .00000     18.000     .00000    
+Hold for Production.Queue.NumberInQueue     72.578     (Insuf)    .00000     140.00     140.00    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Manufacture Number Out                      27.000    
+Manufacture Number In                       27.000    
+Manufacture Accum VA Time                   2371.1    
+Manufacture Accum Wait Time                 18830.    
+Customer.NumberIn                           140.00    
+Customer.NumberOut                          140.00    
+Raw Materials.NumberIn                      140.00    
+Raw Materials.NumberOut                     .00000    
+Manufacturing Cell 2.NumberSeized           .00000    
+Manufacturing Cell 2.ScheduledUtilization   .00000    
+Manufacturing Cell 1.NumberSeized           27.000    
+Manufacturing Cell 1.ScheduledUtilization   .36047    
+System.NumberOut                            140.00    
+
+
+                                      ARENA Simulation Results
+                                                user
+
+                                 Output Summary for 10 Replications
+
+Project: Inventory Management                                        Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Manufacture Number Out                      61.800     17.988     27.000     101.00     10
+Manufacture Number In                       61.800     17.988     27.000     101.00     10
+Manufacture Accum VA Time                   4779.6     1327.7     2176.6     7841.9     10
+Manufacture Accum Wait Time                 99436.     50874.     17892.     2.4655E+05 10
+Customer.NumberIn                           140.00     .00000     140.00     140.00     10
+Customer.NumberOut                          140.00     .00000     140.00     140.00     10
+Raw Materials.NumberIn                      140.00     .00000     140.00     140.00     10
+Raw Materials.NumberOut                     .00000     .00000     .00000     .00000     10
+Manufacturing Cell 2.NumberSeized           .00000     .00000     .00000     .00000     10
+Manufacturing Cell 2.ScheduledUtilization   .00000     .00000     .00000     .00000     10
+Manufacturing Cell 1.NumberSeized           61.800     17.988     27.000     101.00     10
+Manufacturing Cell 1.ScheduledUtilization   .69146     .15355     .34427     .87267     10
+System.NumberOut                            140.00     .00000     140.00     140.00     10
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.
